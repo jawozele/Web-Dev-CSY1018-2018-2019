@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
 @import url('https://fonts.googleapis.com/css?family=Cairo');
 
+
 body, html {
   height: 100%;
   margin: 0;
@@ -36,6 +37,7 @@ body, html {
 }
 
 h1{
+    
   margin-top: 15%;
     margin-left: 10px;
     padding-left: 5%;
@@ -49,62 +51,39 @@ h1{
 h2{
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 10%;
+  margin-top: 15%;
   margin-bottom: 2%;
+  padding-bottom: 0px;
+  font-size: 3em;
   text-align: left;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 2em;
   font-family: 'Audiowide', cursive;
 }
 
-
-@media screen and (min-width: 1900px) {
-  div.container {
-    max-width: 960px;
-    margin: 0 auto; /* to center the container */
-  }
-
-}
-.pup {
-  
-  width: 100%;
-  height: 20%;
-  margin-bottom: 10%;
+h3{
+  margin: 20px;
+  padding-top: 5%;
+  padding-bottom: 0px;
+  font-size: 3em;
+  text-align: left;
+  font-family: 'Audiowide', cursive;
 }
 
-.TextWrap{
-  float: right;
-  margin: 10px;
-  width: 150px;
-  height: 150px
-}
-p{
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: left;
-    font-size: 20px;
-    padding: 20px;
-    font-family: 'Cairo', sans-serif;
-    color: #262525;
-    letter-spacing: 1px;
-    line-height: 2;
-}
 .videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
-  height: 0;
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
 }
 .videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .iframe{
+
   width: 560px;
   height: 349;
 }
@@ -113,7 +92,9 @@ p{
     max-width: 960px;
     margin: 0 auto; /* to center the container */
   }
+
 }
+
 
 img {
   
@@ -121,16 +102,25 @@ img {
   height: 20%;
   
 }
-.site__footer {
-  color: #f8f6f6;
-  background: #0d0d0d; 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  font-family: 'Audiowide', cursive;
-  padding: 20px;
-  
+
+p{
+  margin-top: 0px;
+  margin: 5px;
+  padding: 40px;
+  float: left;
+  width: auto;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: 'Cairo', sans-serif;
+  letter-spacing: 1px;
+  line-height: 2;
+
 }
+
+
+
+
 blockquote{
   margin-left: 10%;
   margin-right: 10%;
@@ -138,6 +128,16 @@ blockquote{
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 30px;
 }
+
+.site__footer {
+  color: #f8f6f6;
+  background: #0d0d0d; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: 'Audiowide', cursive;
+}
+
 
 
 i{
@@ -162,30 +162,3 @@ em{
 
 }
 
-/*News paper effect*/
-.newspaper {
-  -webkit-column-count: 4; /* Chrome, Safari, Opera */
-  -moz-column-count: 4; /* Firefox */
-  column-count: 4;
-  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-  -moz-column-gap: 40px; /* Firefox */
-  column-gap: 40px;
-  -webkit-column-rule: 1px solid lightblue; /* Chrome, Safari, Opera */
-  -moz-column-rule: 1px solid lightblue; /* Firefox */
-  column-rule: 1px solid lightblue;
-}
-
-div {
-
-  column-rule: 1px solid lightblue;
-}
-.firstcharacter {
-  color: #903;
-  float: left;
-  font-family: Georgia;
-  font-size: 75px;
-  line-height: 60px;
-  padding-top: 4px;
-  padding-right: 8px;
-  padding-left: 3px;
-}
